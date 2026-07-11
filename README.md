@@ -2,7 +2,7 @@
 
 A basic multi-client TCP link for one server and multiple connections sharing one ROS2 publisher to send info.
 
-Forked from [mirellameelo](https://github.com/mirellameelo/ROS_2_ANDROID), designed to receive tcp logs from android devices conencted. I did not include here the app side since it is focused on the communication method via passing plain text over TCP. 
+Based from [mirellameelo](https://github.com/mirellameelo/ROS_2_ANDROID), designed to receive tcp logs from android devices conencted. I did not include here the app side since it is focused on the communication method via passing plain text over TCP. 
 
 Translation the TCP logic into Python with original guide from [wittcode's blog](https://blog.wittcode.com/blogs/python-socket-programming-multiple-clients-chat.) (Sadly, domain seemed to be removed) but another reference is from [Real Python](https://realpython.com/python-sockets/#running-the-multi-connection-client-and-server).
 
